@@ -99,7 +99,7 @@ DESCRIBE design.purchases;
 -- DO SLEEP(1);
 -- INSERT INTO design.purchases (id, servants_id, products_id, p_time) VALUES (DEFAULT, 2, 4, DEFAULT);
 
--- Purchases: Inserts / TIMESTAMPADD /  Danke, YASIN!
+-- Purchases: Inserts / TIMESTAMPADD /  Danke, Jennifer!
 INSERT INTO design.purchases (id, servants_id, products_id, p_time) VALUES
 (DEFAULT, 1, 2, CURRENT_TIMESTAMP),
 (DEFAULT, 1, 3, TIMESTAMPADD(MINUTE, 12, CURRENT_TIMESTAMP)),
